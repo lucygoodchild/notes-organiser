@@ -1,0 +1,18 @@
+.notes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .no-notes {
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    padding: 30px;
+    text-align: center;
+    color: var(--gray);
+    box-shadow: 0 2px 8px var(--shadow);
+  }
+  
+  .no-notes p {
+    font-size: 1.1rem;
+  }

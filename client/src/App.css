@@ -1,0 +1,83 @@
+:root {
+  --primary-color: #4a6fa5;
+  --primary-dark: #375782;
+  --secondary-color: #47b475;
+  --text-color: #333;
+  --light-bg: #f5f7fa;
+  --gray: #888;
+  --light-gray: #e1e5eb;
+  --dark-gray: #555;
+  --white: #fff;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --border-radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: var(--light-bg);
+  line-height: 1.6;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.app-header {
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.app-header h1 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+}
+
+.app-main {
+  display: flex;
+  gap: 30px;
+}
+
+.sidebar {
+  flex: 0 0 350px;
+}
+
+.notes-container {
+  flex: 1;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: var(--gray);
+  font-size: 1.2rem;
+}
+
+.error {
+  background-color: #ffebee;
+  color: #d32f2f;
+  padding: 15px;
+  border-radius: var(--border-radius);
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .app-main {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
