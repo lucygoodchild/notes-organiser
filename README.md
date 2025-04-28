@@ -35,11 +35,15 @@ The **Smart Notes Organiser** is a web application that allows users to create, 
 - **Mongoose**: For database modeling.
 
 ### AI Tools
-- **Hugging Face Models**: For categorization, summarisation, and sentiment analysis.
+- **Hugging Face Models**: For categorisation, summarisation, and sentiment analysis.
 
 ### Deployment
 - **Vercel**: For hosting the frontend.
 - **Render**: For hosting the backend.
+
+### Testing Frameworks Used
+- **Jest**: For unit and integration tests.
+- **React Testing Library**: For testing React components.
 
 ---
 
@@ -60,3 +64,23 @@ The **Smart Notes Organiser** is a web application that allows users to create, 
    ```bash
    git clone https://github.com/your-username/notes-organiser.git
    cd notes-organiser
+
+2. ### Prerequisites
+- Ensure all dependencies are installed:
+  ```bash
+  npm install
+
+3. ### To run the client:
+  ```bash
+   cd client 
+   npm run start
+
+4. ### To run the server:
+- Add an .env.local file to the server directory as shown in the .env.example file. Then:
+  ```bash
+   cd server
+   node index.js
+
+5. ### To run tests:
+   ```bash
+   npm test
