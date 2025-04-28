@@ -2,8 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
-const noteRoutes = require('../routes/notes');
-const nlqRoutes = require('../routes/nlq');
+const noteRoutes = require('./routes/notes');
+const nlqRoutes = require('./routes/nlq');
 
 // Load environment variables
 dotenv.config({ path: "./.env.local" });
