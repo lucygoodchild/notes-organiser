@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Smart Notes Organiser** is a web application that allows users to create, categorize, and search notes efficiently. It leverages AI-powered features to enhance note management, including automatic categorization, summarisation, sentiment analysis, and natural language query (NLQ) search. The application is designed with a user-friendly interface and robust backend to ensure seamless functionality.
+The **Smart Notes Organiser** is a web application that allows users to create, categorize, and search notes efficiently. It leverages AI-powered features to enhance note management, including automatic categorisation, summarisation, sentiment analysis, and natural language query (NLQ) search. The application is designed with a user-friendly interface and robust backend to ensure seamless functionality.
 
 ---
 
@@ -14,7 +14,7 @@ The **Smart Notes Organiser** is a web application that allows users to create, 
 3. **Search Notes**: Search for notes using keywords.
 
 ### AI-Powered Features
-1. **Automatic Categorization**: Suggests or assigns a category based on the note's content.
+1. **Automatic Categorisation**: Suggests or assigns a category based on the note's content.
 2. **Summarization**: Generates concise summaries for longer notes.
 3. **Sentiment Analysis**: Detects and displays the sentiment of notes (e.g., Positive, Neutral, Negative).
 4. **Natural Language Query (NLQ)**: Enables users to search notes using phrases like "Find my work notes from last week."
