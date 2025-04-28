@@ -36,7 +36,6 @@ The **Smart Notes Organiser** is a web application that allows users to create, 
 
 ### AI Tools
 - **Hugging Face Models**: For categorization, summarisation, and sentiment analysis.
-- **Custom NLP Models**: For natural language query processing.
 
 ### Deployment
 - **Vercel**: For hosting the frontend.
@@ -46,7 +45,7 @@ The **Smart Notes Organiser** is a web application that allows users to create, 
 
 ## Live Application
 
-- **Live URL**: []
+- **Live URL**: [https://smart-notes-organiser.vercel.app/]
 
 ---
 
@@ -54,7 +53,7 @@ The **Smart Notes Organiser** is a web application that allows users to create, 
 
 ### Prerequisites
 - **Node.js** (v16 or higher)
-- **MongoDB** (local or cloud instance)
+- **MongoDB** (cloud instance)
 
 ### Steps to Run Locally
 1. Clone the repository:
